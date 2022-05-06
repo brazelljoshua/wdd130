@@ -1,10 +1,10 @@
 body {
     text-align: center;
 }
-nav {
-    background-color: steelblue;
-    padding: 10px;
-  }
+nav #active {
+    background-color: white;
+    color: steelblue;
+}
   a {
     color: white;
     margin: 40px;
@@ -24,4 +24,7 @@ nav {
     background-color: steelblue;
     color: white;
   }
-  
+  .main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
