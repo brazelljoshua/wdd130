@@ -1,0 +1,135 @@
+
+.content{
+    max-width: 1600px;
+    margin: 0% auto;
+     
+}
+
+header h1{
+
+    margin-top: 5%;
+    text-align: center;
+    color: var(--paragraph-color-on-color);
+    background-color: var(--paragraph-background-color);
+     
+}
+header h1:hover {
+    background-color: white;
+    color: white
+} 
+
+header h2{
+    font-size: 12px;
+    max-width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;    
+    color: white
+}
+header h3 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+    background-color: #fcfbfb; 
+
+}
+.header {
+    background-color:rgba(20,30,13, .7);
+
+}
+.nav a:hover {
+    background-color: black;
+
+}
+.book {
+    background-color: #f3722c;
+}
+.join {
+    background-color: #f9c74f;
+
+}
+.book:hover  {
+    background-color:#90be6d
+
+}
+.join:hover {
+    background-color:#43aa8b;
+
+}
+.msg {
+    background-color: #577590;
+
+}
+.footer {
+    background-color: #f94144;
+}
+
+.footer h3 {
+    text-decoration: underline;
+
+}
+
+.icon {
+    width: 80px;
+}
+
+
+main{
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+.nav a {
+    text-align: center;
+    text-decoration: none;
+
+}
+.hero-msg h1 { 
+    text-align: center;
+    width: 100%;
+}
+.hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+.main section {
+    text-align: center;
+}
+
+
+#.first {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    text-align: center;
+    color: black 
+}
+
+
+#p {
+    max-width: 250px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0% auto;
+    margin-bottom: 100px;
+    color: white
+    
+}
+#footer h1{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black
+}
+#footer h2 {
+    max-width: 250px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    color: black 
