@@ -27,14 +27,11 @@ Fonts are separated by a | */
   --nav-hover-background-color: #396E94;
 }
 
-
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
   max-width: 960px;
-  margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
   text-align: center;
   background-color: #fcfbfb; 
 
@@ -50,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
@@ -64,6 +62,7 @@ header {
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
+  font-size: 2em;
 }
 p {
   font-family: var(--paragraph-font);
@@ -111,7 +110,7 @@ nav  {
 }
 nav a {
   text-align: center;
-  padding:1em;
+  padding: 35px;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
@@ -167,13 +166,18 @@ nav a:hover {
   border-right: 1px solid;
 }
 
-.book {
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+.book .join{
   background-color: #f3722c;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 15px 30px
+  
+  
 }
-.join {
-  background-color: #f9c74f;
 
-}
 .book:hover  {
   background-color:#90be6d
 
@@ -184,10 +188,12 @@ nav a:hover {
 }
 .msg {
   background-color: #577590;
+  line-height: 1.5em;
 
 }
 .footer {
   background-color: #f94144;
+  padding-bottom: 15px;
 }
 
 .footer h3 {
@@ -197,6 +203,7 @@ nav a:hover {
 
 .icon {
   width: 80px;
+  padding: 15px 30px
 }
 
 
@@ -225,4 +232,5 @@ main{
 }
 .main section {
   text-align: center;
+  box-sizing: border-box;
 }
